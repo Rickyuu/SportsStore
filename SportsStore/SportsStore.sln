@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.Domain", "SportsStore.Domain\SportsStore.Domain.csproj", "{D8FDA23E-A445-4263-A0F9-E510CFB69C44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.WebUI", "SportsStore.WebUI\SportsStore.WebUI.csproj", "{0984BCBE-846D-49B4-99CB-C8C5B09CFA2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.UnitTests", "SportsStore.UnitTests\SportsStore.UnitTests.csproj", "{67109ED4-E8A6-4A42-A9B8-2C72F0C49354}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8FDA23E-A445-4263-A0F9-E510CFB69C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FDA23E-A445-4263-A0F9-E510CFB69C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8FDA23E-A445-4263-A0F9-E510CFB69C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8FDA23E-A445-4263-A0F9-E510CFB69C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0984BCBE-846D-49B4-99CB-C8C5B09CFA2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0984BCBE-846D-49B4-99CB-C8C5B09CFA2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0984BCBE-846D-49B4-99CB-C8C5B09CFA2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0984BCBE-846D-49B4-99CB-C8C5B09CFA2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67109ED4-E8A6-4A42-A9B8-2C72F0C49354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67109ED4-E8A6-4A42-A9B8-2C72F0C49354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67109ED4-E8A6-4A42-A9B8-2C72F0C49354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67109ED4-E8A6-4A42-A9B8-2C72F0C49354}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
